@@ -1,0 +1,17 @@
+export const skills = {
+  'GenAI & Agentic AI':['RAG Pipelines','LangChain','LangGraph','Azure OpenAI','AI Agents','Hybrid Search','RAGAS','Function Calling','Prompt Engineering','BGE Embeddings','Cross-Encoder Reranking'],
+  'Frontend':['React.js','TypeScript','JavaScript','Redux','Electron.js','HTML5','CSS3','Material UI','Bootstrap','Streamlit'],
+  'Backend':['Node.js','Express.js','NestJS','Python','FastAPI','Flask','REST APIs','Microservices','Kafka'],
+  'Data & Cloud':['MongoDB','PostgreSQL','pgvector','HNSW','AWS Lambda','AWS S3','AWS ECS','AWS Cognito','Docker','CI/CD']
+};
+export const projects = [
+ {id:'policy',number:'01',category:'Generative AI / RAG',title:'Policy Document Assistant',summary:'An enterprise knowledge assistant that answers HR and policy questions using trusted internal documents, metadata-aware retrieval and grounded responses.',stack:['Python','FastAPI','LangChain','BGE','pgvector','Azure OpenAI','RAGAS'],highlights:['PDF extraction with PyPDF and Tesseract OCR','Recursive chunking and BGE-large embeddings','Hybrid retrieval, HNSW indexing and reranking','RBAC, document-level filtering and RAG evaluation'],tone:'violet',featured:true},
+ {id:'rfp',number:'02',category:'Agentic AI / Automation',title:'RFP Proposal Automation',summary:'A multi-agent workflow that processes incoming RFP/SOW documents, analyzes requirements and helps teams plan proposal next steps.',stack:['Python','FastAPI','LangGraph','LLMs','Document Processing'],highlights:['Email and shared-file document ingestion','Three-agent workflow orchestration','Structured analysis and next-step generation','Human review and workflow guardrails'],tone:'cyan',featured:true},
+ {id:'rca',number:'03',category:'AI / Developer Tools',title:'AI Root Cause Analysis Assistant',summary:'An AI-assisted investigation concept for searching operational logs and observability data to help engineers identify possible incident causes.',stack:['React','Node.js','Python','LLMs','Observability'],highlights:['Log search workflow for Kibana/Dynatrace sources','Context-driven incident analysis','React-based investigation interface'],tone:'orange',status:'Prototype / concept'},
+ {id:'services',number:'05',category:'Enterprise / Backend',title:'Enterprise Email & Document Services',summary:'Backend service work involving business email processing, extracting metadata from ACORD/ACCORDS-style PDF documents and routing events.',stack:['Node.js','Kafka','Microservices','PDF Processing'],highlights:['Backend APIs and event-driven workflows','PDF metadata extraction','Kafka-based event routing'],tone:'green'},
+ {id:'apis',number:'06',category:'Full Stack / APIs',title:'Full Stack API & UI Integration',summary:'Business application development with Node.js/NestJS APIs and frontend integrations across production software projects.',stack:['React','Node.js','NestJS','MongoDB','REST APIs'],highlights:['RESTful service development','Frontend/backend integration','Reusable application components'],tone:'blue'}
+];
+export const experience = [
+ {role:'Senior Full Stack Developer',company:'LTIMindtree',period:'Aug 2024 — Present',detail:'Node.js services, enterprise document processing, Kafka workflows and full stack engineering.'},
+ {role:'Full Stack Developer',company:'Kochar Infotech',period:'Jan 2021 — Jul 2024',detail:'Built and integrated backend APIs using Node.js and NestJS with frontend applications.'}
+];
